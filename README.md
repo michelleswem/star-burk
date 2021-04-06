@@ -4,6 +4,9 @@ This project was created using _flexbox_ features.
 
 I translated this UI design to actual codes.
 
+## LIVE PREVIEW
+https://starbuck.netlify.app/
+
 ## Design
 This design Inspiration was gotten from [Dribble](https://dribbble.com/shots/12048808-Starbucks-Web-UI-exploration).
 
