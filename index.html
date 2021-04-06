@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/icon-font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Starburk</title>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <img src="images/logo-1.jpg" alt="starburks-logo" class="logo">
+        <nav class="nav">
+            <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Menu</a></li>
+            <li class="nav__item nav__item--active"><a href="#" class="nav__link">Trending</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Rewards</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Gifts Cards</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Responsibility</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+            </ul>
+        </nav>
+        <form action="#" class="search">
+            <input type="text" class="search__input" placeholder="search">
+            <button class="search__button">
+                <svg class="search__icon">
+                <use xlink:href="images/sprite.svg#icon-magnifying-glass"></use>
+                </svg>
+            </button>
+        </form>
+        <div class="cart">
+            <svg class="cart__icon">
+                <use xlink:href="images/sprite.svg#icon-shopping-basket"></use>
+            </svg>
+            <span class="cart__notification">1</span>
+        </div>
+    </header>
+    <main class="coffe-view">
+        <div class="ribbon-section">
+        <div class="ribbon">
+           <h1 class="ribbon__heading-1 mb-sm">Caramel Ribbon</h1> 
+           <div class="ribbon__rating">
+               <div class="ribbon__stars-box">
+                   <svg class="ribbon__star">
+                       <use xlink:href="images/sprite.svg#icon-star"></use>
+                   </svg>
+                   <svg class="ribbon__star">
+                    <use xlink:href="images/sprite.svg#icon-star"></use>
+                </svg>
+                <svg class="ribbon__star">
+                    <use xlink:href="images/sprite.svg#icon-star"></use>
+                </svg>
+                <svg class="ribbon__star">
+                    <use xlink:href="images/sprite.svg#icon-star"></use>
+                </svg>
+                <svg class="ribbon__star ribbon__star--5">
+                    <use xlink:href="images/sprite.svg#icon-star"></use>
+                </svg>
+               </div>
+               <div class="ribbon__amount">&#36; 39.00</div>
+           </div>
+           <p class="ribbon__text">
+               Caramel ribbon meets coffee, milk and ice for a rendezvous in the blender while whipped cream and buttery caramel sauce layer the love on top. To change things up try affogate-style with a hot espresso shot poured right over the top.
+           </p>
+          <h2 class="ribbon__heading-2 mb-sm">Serve with</h2>
+          <div class="ribbon__snacks-box">
+              <div class="ribbon__snacks">
+                  <div class="ribbon__img-box">
+                    <img src="images/donut-3.jpg" alt="donut-image" class="ribbon__img">
+                    <span class="ribbon__notification">2</span>
+                  </div>
+                 <h3 class="ribbon__heading-3 mb-bg">Donut</h3> 
+              </div>
+              <div class="ribbon__snacks">
+                  <div class="ribbon__img-box">
+                <img src="images/donut-3.jpg" alt="yogurt-image" class="ribbon__img">
+                  </div>
+                  <h3 class="ribbon__heading-3">yogurt</h3>
+            </div>
+            <div class="ribbon__snacks">
+                <div class="ribbon__img-box">
+                    <img src="images/donut-3.jpg" alt="cookies-image" class="ribbon__img">
+                    <span class="ribbon__notification">3</span>
+                </div> 
+                <h3 class="ribbon__heading-3">Cookies</h3>
+            </div>
+          </div>
+          <form action="#" class="ribbon__form">
+              <div class="ribbon__form-group">
+                  <div class="ribbon__form-radio">
+                    <input type="radio" class="ribbon__input-btn" id="minus" name="cart-choice">
+                    <label for="minus" class="ribbon__quantity-btn">
+                    <span class="ribbon__icon">&#45;</span>
+                    </label>
+                  </div>
+                  <div class="ribbon__form-radio">
+                    <input type="radio" class="ribbon__input-btn" id="two" name="cart-choice" checked>
+                    <label for="two" class="ribbon__quantity-btn">
+                    <span class="ribbon__icon ribbon__icon--2">&#50;</span> 
+                </label>
+                  </div>
+                  <div class="ribbon__form-radio">
+                    <input type="radio" class="ribbon__input-btn" id="plus" name="cart-choice">
+                    <label for="plus" class="ribbon__quantity-btn">
+                    <span class="ribbon__icon">&#43;</span>
+                </label>
+                  </div>
+              </div>
+              <button class="ribbon__btn">Add to cart</button>
+              <svg class="ribbon__btn-icon">
+                <use xlink:href="images/sprite.svg#icon-triangle-right"></use>
+              </svg>
+          </form>
+        </div>
+        </div>
+        <div class="ice-box-section">
+       <div class="ice-box">
+        <div class="ice-box__container">
+            <img src="images/ice-6.png" alt="ice-cream" class="ice-box__img">
+        </div>
+           <form action="#" class="ice-box__form">
+            <div class="ice-box__group">
+                <input type="radio" class="ice-box__input" id="button-1" name="ice-cream">
+                <label for="button-1" class="ice-box__label"></label>
+            </div>
+            <div class="ice-box__group">
+                <input type="radio" class="ice-box__input" id="button-2" name="ice-cream">
+                <label for="button-2" class="ice-box__label"></label>
+            </div>
+            <div class="ice-box__group">
+                <input type="radio" class="ice-box__input" id="button-3" name="ice-cream" checked>
+                <label for="button-3" class="ice-box__label"></label>
+            </div>
+            <div class="ice-box__group">
+                <input type="radio" class="ice-box__input" id="button-4" name="ice-cream">
+                <label for="button-4" class="ice-box__label"></label>
+            </div>
+            <div class="ice-box__group">
+                <input type="radio" class="ice-box__input" id="button-5" name="ice-cream">
+                <label for="button-5" class="ice-box__label"></label>
+            </div>
+        </form>
+        </div>
+    </div>
+        <div class="rating-section">
+            <div class="rating rating--1">
+                <div class="rating__img-box">
+                    <img src="images/ice-cream.jpg" alt="ice-cream" class="rating__image">
+                </div>
+                <div class="rating__box-2">
+                    <p class="rating__number">4.6</p>
+                    <svg class="rating__icon">
+                        <use xlink:href="images/sprite.svg#icon-star"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="rating rating--2">
+                <div class="rating__img-box">
+                    <img src="images/ice-cream.jpg" alt="ice-cream" class="rating__image">
+                </div>
+                <div class="rating__box-2">
+                    <p class="rating__number">4.5</p>
+                    <svg class="rating__icon">
+                        <use xlink:href="images/sprite.svg#icon-star"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="rating rating--3">
+                <div class="rating__img-box">
+                    <img src="images/ice-cream.jpg" alt="ice-cream" class="rating__image">
+                </div>
+                <div class="rating__box-2">
+                    <p class="rating__number">5.0</p>
+                    <svg class="rating__icon">
+                        <use xlink:href="images/sprite.svg#icon-star"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>
